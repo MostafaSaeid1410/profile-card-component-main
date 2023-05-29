@@ -1,0 +1,22 @@
+@import '../abstracts/variables';
+body {
+  font-family: $default-font-family;
+  font-weight: 400;
+  font-size: $default-font-size;
+  line-height: 1.7;
+  color: $color-grey-dark;
+}
+
+.heading-secondary {
+  color: $color-primary-dark;
+  font-size: 2.2rem;
+
+  &__age {
+    font-size: $default-font-size;
+    font-weight: 400;
+  }
+  &__country {
+    font-weight: 400;
+    font-size: $default-font-size;
+  }
+}

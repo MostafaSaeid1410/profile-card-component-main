@@ -1,0 +1,25 @@
+body {
+  background-color: $color-primary;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+.bg-pattern {
+  // overflow: hidden;
+  .bg-pattern-top {
+    position: absolute;
+    top: -64vh;
+    left: -10vw;
+    // z-index: 3;
+  }
+  .bg-pattern-bottom {
+    position: absolute;
+    top: 53vh;
+    // z-index: -1;
+    left: 50vw;
+  }
+}
